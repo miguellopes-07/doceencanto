@@ -1,5 +1,11 @@
 /* style.css */
-
+@font-face {
+  font-family:'bonitin' ;
+  src: url(font/GreatVibes-Regular.ttf) format(truetype);  
+}
+p h1 h2 h3 h4{
+  font-family: 'bonitin';
+}
 /* Paleta de cores */
 :root {
   --creme: #F2E5D5;
@@ -14,7 +20,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 body {
