@@ -20,7 +20,11 @@
         <li><a href="cardapio.html" class="active">Cardápio</a></li>
         <li><a href="contato.html">Contato</a></li>
       </ul>
-      <img  style="border-radius: 30px;" src="img/cardapio.jpg" alt="">
+        <picture>
+        <source media="(max-width:750px )" srcset="img/cardapio-p.jpg" type="image/jpg">
+        <source media="(max-width:950px )" srcset="img/cardapio-m.jpg" type="image/jpg">
+        <img style="border-radius: 30px; margin-right: 100px;" src="img/cardapio.jpg" alt="">
+      </picture>
     </nav>
   </header>
 
